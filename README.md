@@ -44,9 +44,6 @@ $ ./asm/asm [fichier_contenant_un_champion]
 $ ./corewar/corewar [1er_champion] [2eme_champion] [3eme_champion] [4eme_champion]
 $ ./bonus/corewar [1er_champion] [2eme_champion] [3eme_champion] [4eme_champion]
 ```
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/91092610/174324257-643359eb-7f57-478c-85c6-128e540f568f.png">
-</p>
 
 ---
 
@@ -55,5 +52,5 @@ $ ./bonus/corewar [1er_champion] [2eme_champion] [3eme_champion] [4eme_champion]
 Notre corewar possède un asm fonctionnelle qui permet de fournir un binaire exécutable par l'interprêteur. De plus nous avons une machine virtuelle avec un interprêteur graphique réalisé en CSFML, se trouvant dans le dossier `bonus`. Malheureusement, en raison de la difficulté du projet, nous ne sommes pas parvenu à simuler un combat entre les programmes, cependant, ceux-ci se compilent et s'affiche correctement dans la machine virtuelle graphique.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/91092610/174324680-877675c7-df21-46e5-bc8a-01379c644ab8.png">
+  <img src="https://user-images.githubusercontent.com/91092610/174640132-dc5967b6-4858-4c96-b6c8-2e22589a41d0.png">
 </p>
