@@ -1,0 +1,69 @@
+/*
+** EPITECH PROJECT, 2022
+** B-CPE-201-MPL-2-1-corewar-hippolyte.aubert
+** File description:
+** tools
+*/
+
+#include "../include/my.h"
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+int my_numlen(int nb)
+{
+    int count = 0;
+
+    if (nb < 0)
+        nb *= -1;
+    while (nb != 0) {
+        count++;
+        nb /= 10;
+    }
+    return count;
+}
+
+char *my_itoa(int nb)
+{
+    char *final = malloc(sizeof(char) * (my_numlen(nb) + 2));
+    int len1 = my_numlen(nb);
+
+    if (nb == 0 || nb == (-0))
+        return "0";
+    for (int i = 0; i < my_numlen(nb) + 2; i++)
+        final[i] = '\0';
+    if (nb < 0) {
+        final[0] = '-';
+        nb *= -1;
+    }
+    for (int i = 0; nb > 0; i++) {
+        final[len1 - i] = (nb % 10 + '0');
+        nb /= 10;
+    }
+    if (final[0] == '\0')
+        return &final[1];
+    return final;
+}
+
+int my_atoi(char *str)
+{
+    int nb = 0;
+
+    for (int i = 0; str[i] != '\0'; i++) {
+        nb *= 10;
+        nb += str[i] - '0';
+    }
+    return nb;
+}
+
+char *reverse_str(char *str)
+{
+    int len = my_strlen(str);
+    char *rev = malloc(sizeof(char) * len + 1);
+
+    len--;
+    for (int i = 0, j = len; i < len; i++, j--)
+        rev[i] = str[j];
+    rev[len] = str[0];
+    return rev;
+}
