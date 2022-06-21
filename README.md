@@ -10,8 +10,8 @@
 ## Motivation : 
 
 Le **Corewar** est un des trois projets phares d'Epitech, avec le *42sh* et le *My_RPG* et il est probablement le projet le plus compliqué des trois. Il est réalisé en groupe de 4.
-Le Corewar est un jeu spéciale qui consiste à faire se confronter des programmes dans une machine virtuelle. Le but du jeu est que l'un des programmes empêche les autre de fonctionner en utilisant tout les moyens possible. 
-Le jeu va donc créer une machine virtuelle dans le but de faire se battre les programmes entre eux dans le même espace de mémoire. L'objectif des programmes est donc de "survivre" le plus longtemps possible en exécutant une instruction nommé *live*, qui va prévenir la machine virtuelle que le programme en question est toujours en vie. Comme les programmes se "battent" dans la même zone mémoire, cela va leur permettre de réécrire les uns sur les autres afin de détruire ces concurrents et être le dernier à exécuter l'instruction *live*.
+Le Corewar est un jeu spéciale qui consiste à faire se confronter des programmes dans une machine virtuelle. Le but du jeu est que l'un des programmes empêche les autre de fonctionner en utilisant tout les moyens possibles. 
+Le jeu va donc créer une machine virtuelle dans le but de faire se battre les programmes entre eux dans le même espace de mémoire. L'objectif des programmes est donc de "survivre" le plus longtemps possible en exécutant une instruction nommé *live*, qui va prévenir la machine virtuelle que le programme en question est toujours en vie. Comme les programmes se "battent" dans la même zone mémoire, cela va leur permettre de réécrire les uns sur les autres afin de détruire leurs concurrents et être le dernier à exécuter l'instruction *live*.
 
 ---
 
@@ -20,7 +20,7 @@ Le jeu va donc créer une machine virtuelle dans le but de faire se battre les p
 Le projet se sépare en plusieurs grande parties : 
 - L'assembleur, dont le rôle va être de récupérer les code des "champions" (qui sont les programmes destiné à combattre dans la machine virtuelle) et qui va être capable de comprendre le language utilisé, et ainsi créer un binaire qui puisse être exécuter par la machine virtuelle.
 - La machine virtuelle, qui va permettre de comprendre les fichiers binaires envoyés par l'assembleur, de les interprêter et qui va pouvoir les exécuter et abriter le combat entre les champions. 
-- Les champions, qui vont être codé dans un language redcode qui va pouvoir être interprêter par l'assembleur et qui vont pouvoir se combattre dans la machine virtuelle.
+- Les champions, qui vont être codé dans un language redcode qui va pouvoir être interprêté par l'assembleur et qui vont pouvoir se combattre dans la machine virtuelle.
 
 ---
 
@@ -38,7 +38,7 @@ $ git clone git@github.com:EpitechPromo2026/B-CPE-201-MPL-2-1-corewar-hippolyte.
 $ cd B-CPE-201-MPL-2-1-corewar-hippolyte.aubert
 $ make
 ```
-Les binaires se trouveront alors dans leurs dossiers respectifs, et il vous suffira de le lancer comme ceci : 
+Les binaires se trouveront alors dans leur dossiers respectifs, et il vous suffira de les lancer comme ceci : 
 ```bash
 $ ./asm/asm [fichier_contenant_un_champion]
 $ ./corewar/corewar [1er_champion] [2eme_champion] [3eme_champion] [4eme_champion]
