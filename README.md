@@ -53,4 +53,5 @@ Notre corewar poss√®de un asm fonctionnelle qui permet de fournir un binaire ex√
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/91092610/174640132-dc5967b6-4858-4c96-b6c8-2e22589a41d0.png">
+  <img src="https://user-images.githubusercontent.com/91092610/174737664-30d9a426-a053-4955-8b2c-6a053b2b0106.png">
 </p>
