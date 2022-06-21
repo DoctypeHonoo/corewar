@@ -34,8 +34,8 @@ Le projet se sépare en plusieurs grande parties :
 
 Ouvrez un terminal et dirigez vous ou vous souhaitez que le projet soit installé, puis exécutez les commandes suivantes : 
 ```bash
-$ git clone git@github.com:EpitechPromo2026/B-CPE-201-MPL-2-1-corewar-hippolyte.aubert.git
-$ cd B-CPE-201-MPL-2-1-corewar-hippolyte.aubert
+$ git clone git@github.com:DoctypeHonoo/corewar.git
+$ cd corewar
 $ make
 ```
 Les binaires se trouveront alors dans leur dossiers respectifs, et il vous suffira de les lancer comme ceci : 
